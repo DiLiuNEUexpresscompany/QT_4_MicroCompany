@@ -128,7 +128,7 @@ def get_company_details(ticker):
 # 修改主执行流程
 if __name__ == "__main__":
     # 让用户输入查询日期
-    date_input = "2025-03-05"  # 示例日期，可以修改为用户输入
+    date_input = "2025-03-04"  # 示例日期，可以修改为用户输入
     
     # 获取当天所有股票数据和低价股票列表
     low_price_tickers = get_low_price_stocks(date_input)
